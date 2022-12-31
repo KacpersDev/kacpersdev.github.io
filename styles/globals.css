@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@layer base {
+    button {
+        @apply font-custom;
+    }
+    p {
+        @apply font-custom;
+    }
+
+    body {
+        overflow-x: hidden;
+        background: #f6f9fc;
+    }
+
+    #selector {
+        @apply bg-menu;
+    }
+}
